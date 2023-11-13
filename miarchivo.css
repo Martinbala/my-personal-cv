@@ -1,0 +1,215 @@
+/* Basic reset for consistent styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Agbalumo, Regular 400 at 48px;
+    /* Using Arial font for simplicity */
+    line-height: 1.8;
+    /* Spacing between lines */
+}
+
+
+
+header {
+    font-family: Noto Sans Linear B, sans-serif;
+}
+
+header h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 16px;
+    color: #666;
+}
+
+
+
+#cv {
+    max-width: 800px;
+    /* CV width */
+    margin: 20px auto;
+    /* Center the CV on the page */
+    padding: 20px;
+    border: 1px solid #ddd;
+    /* Border around the CV */
+}
+
+
+
+.contact {
+    background-color: #e0f7fa; /* Tono suave de azul verdoso */
+    z-index: 3;
+    text-align: center;
+}
+
+/* Estilo para el título de la sección de contacto */
+.contact h2 {
+    background-color: #4dd0e1; /* Tono más intenso para el título */
+    padding: 10px; /* Espaciado alrededor del título */
+    color: #ffffff; /* Color del texto del título */
+    
+}
+
+/* Repite el mismo patrón para otras secciones según sea necesario */
+
+/* Estilo para la sección de experiencia */
+.experiencia {
+    background-color: #ffe0b2; /* Tono suave de naranja claro */
+    z-index: 3;
+    text-align: center;
+}
+
+/* Estilo para el título de la sección de experiencia */
+.experiencia h2 {
+    background-color: #ffb74d; /* Tono más intenso para el título */
+
+    padding: 10px; /* Espaciado alrededor del título */
+    color: #ffffff; /* Color del texto del título */
+}
+
+/* Repite el mismo patrón para otras secciones según sea necesario */
+
+/* Estilo para la sección de formación */
+.formacion {
+    background-color: #d1c4e9; /* Tono suave de morado claro */
+    z-index: 3;
+    text-align: center;
+}
+
+/* Estilo para el título de la sección de formación */
+.formacion h2 {
+    background-color: #9575cd; /* Tono más intenso para el título */
+    padding: 10px; /* Espaciado alrededor del título */
+    color: #ffffff; /* Color del texto del título */
+}
+.contact h2:hover,
+.experiencia h2:hover,
+.formacion h2:hover,
+.idiomas h2:hover,
+.softskills h2:hover {
+    background-color: #FF3333; /* Nuevo color de fondo al pasar el mouse */
+}
+
+
+/* Repite el mismo patrón para otras secciones según sea necesario */
+
+/* Estilo para la sección de idiomas */
+.idiomas {
+    background-color: #c8e6c9; /* Tono suave de verde claro */
+    transition: background-color 0.3s ease;
+    z-index: 3;
+    text-align: center;
+}
+
+/* Estilo para el título de la sección de idiomas */
+.idiomas h2 {
+    background-color: #81c784; /* Tono más intenso para el título */
+    padding: 10px; /* Espaciado alrededor del título */
+    color: #ffffff; /* Color del texto del título */
+}
+
+/* Repite el mismo patrón para otras secciones según sea necesario */
+
+/* Estilo para la sección de habilidades blandas */
+.softskills {
+    background-color: #ffd180; /* Tono suave de amarillo claro */
+    z-index: 3;
+    text-align: center;
+}
+
+/* Estilo para el título de la sección de habilidades blandas */
+.softskills h2 {
+    background-color: #ffb74d; /* Tono más intenso para el título */
+    padding: 10px; /* Espaciado alrededor del título */
+    color: #ffffff; /* Color del texto del título */
+}
+
+.softskills ul {
+    list-style: none; /* Elimina los puntos predeterminados */
+    text-align: center; /* Centra los elementos de la lista */
+}
+
+.softskills li {
+    position: relative;
+    padding-left: 30px; /* Añade espacio a la izquierda para las flechas */
+    text-align: center; /* Alinea el texto a la izquierda */
+}
+
+.softskills li::before {
+    content: '\2192'; /* Código de carácter para la flecha derecha (→) */
+    position: center;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-right: 10px; /* Espacio entre la flecha y el texto */
+}
+
+
+
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    /* Space below the header */
+}
+
+header h1 {
+    color: #110404;
+    /* Dark text color for the name */
+    font-family: Arial, sans-serif;
+    margin-bottom: 5px;
+    /* Small spacing below the name */
+}
+
+header p {
+    color: #140101;
+    font-weight: bold;
+    /* Lighter text color for the title */
+}
+
+/* Styling for each section's title */
+h2 {
+    background-color: #f4f4f4;
+    /* Light gray background */
+    padding: 10px;
+    margin-bottom: 15px;
+    /* Space below the title */
+}
+
+/* Styling for the contact information */
+#contact address p {
+    margin-bottom: 10px;
+    /* Space between each piece of contact info */
+}
+
+/* Styling for the skills list */
+#skills ul {
+    list-style-type: none;
+    /* Remove the default bullet points */
+}
+
+#skills li {
+    background-color: #f9f9f9;
+    /* Lighter gray background */
+    padding: 5px;
+    margin-bottom: 5px;
+    /* Space between each skill */
+}
+
+/* Styling for each work experience */
+#experience article {
+    margin-bottom: 15px;
+    /* Space between each work experience */
+}
+
+#experience h3 {
+    margin-bottom: 5px;
+    /* Space below the job title */
+}
